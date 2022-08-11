@@ -1,0 +1,19 @@
+.floating-img {
+    display: flex;
+    background: white;
+    justify-content: space-around;
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    align-items: center;
+    padding: 0px 19px 0px 0px;
+    height: 4.4rem;
+}
+.floating-img > img {
+    transform: scale(0.4);
+}
+
+.floating-img > span{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: var(--gray);
+}

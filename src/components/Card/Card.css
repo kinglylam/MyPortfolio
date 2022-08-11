@@ -1,0 +1,41 @@
+.card{
+    width: 10rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--aqua);
+    border-radius: 20px;
+    padding: 0 25px 7px 25px;
+}
+.card span:nth-child(3){
+    color: var(--gary);
+    font-size: 15px;
+}
+
+.card > img {
+    transform: scale(0.8);
+    margin-bottom: -2rem;
+}
+
+.c-button{
+    background: whitesmoke;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 480px){
+    .card{
+        width: auto;
+    }
+}
+
+
+
